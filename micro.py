@@ -1,7 +1,7 @@
 import time
 
 while True:
-    time.sleep(10)
+    time.sleep(1.0)
 
     rfile = open("date.txt", "r")
     line = rfile.readlines()
